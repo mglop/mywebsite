@@ -1,0 +1,47 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+
+/** Globales **/
+.contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+/*Header*/
+/*Aqui posiciona la imagen que va de logo*/
+.site-header.inicio{
+    background-image:url(../img/header.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    min-height: 600px;
+}
+
+.barra{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*Menu de Navegacion*/
+/*Menu estilos a los enlaces*/
+.navegacion a {
+    color:white; 
+    text-decoration: none;
+    font-size: 18px;
+    margin-right: 20px;
+    
+}
+
+.navegacion a:hover {
+    color:#71B100
+}
+
+.navegacion a:last-of-type{
+
+    margin:0;
+}
